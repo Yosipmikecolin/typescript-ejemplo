@@ -10,8 +10,11 @@ fondo : string;
 
 const Formi = styled.form<Props>`
 background-color:${props => props.fondo};
-padding:30px;
-border-radius:10px;
+width:500px;
+padding:10px;
+margin: auto;
+
+
 `;
 
 

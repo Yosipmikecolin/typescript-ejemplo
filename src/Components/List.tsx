@@ -14,7 +14,7 @@ function List({subs,numero} : Props){
     return (
 
         <ul>
-        <h1>Subscritores de Yosip</h1>
+        
           {subs.map((item,index)=>{
             return (
               <li key={index}>
